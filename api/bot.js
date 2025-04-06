@@ -19,7 +19,7 @@ module.exports = async (req, res) => {
 
 // WebApp Stream button
 bot.command('watch', (ctx) => {
-  const streamUrl = 'https://your-vercel-app.vercel.app/stream?url=https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8';
+  const streamUrl = 'https://stream-noob.vercel.app/stream?url=https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8';
   ctx.reply('Click below to stream the video:', Markup.inlineKeyboard([
     Markup.button.webApp('▶️ Watch Now', streamUrl)
   ]));
