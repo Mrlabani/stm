@@ -1,0 +1,8 @@
+{
+  "rewrites": [
+    { "source": "/download", "destination": "/api/download" },
+    { "source": "/stream", "destination": "/api/stream" },
+    { "source": "/preview", "destination": "/api/preview" },
+    { "source": "/bot", "destination": "/api/bot" }
+  ]
+}

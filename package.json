@@ -1,0 +1,11 @@
+{
+  "name": "stream-bot-api",
+  "version": "1.0.0",
+  "dependencies": {
+    "telegraf": "^4.12.2",
+    "dotenv": "^16.4.5"
+  },
+  "scripts": {
+    "start": "node bot.js"
+  }
+}
